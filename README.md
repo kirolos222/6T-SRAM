@@ -5,7 +5,7 @@ SRAM(static memory access) serves as primary memory for cache and embedded appli
 ## Simulation analysis summary
 Simulations were conducted in Cadence Virtuoso using the gf22nm FDSOI process design kit (PDK). Key observations include:
 
-Read Operation: The cell successfully holds data with minimal bit line disturbance. Read SNM analysis shows a noise margin of approximately XX mV, indicating robust stability during read.
+Read Operation: The cell successfully holds data with minimal bit line disturbance. Read SNM analysis shows a noise margin of approximately 350 mV, indicating robust stability during read.
 
 Write Operation: The access transistor sizing allows data to be written reliably at nominal supply voltage. Write delay is measured to be YY ps.
 
@@ -31,3 +31,6 @@ The write operation is initiated by asserting all word lines (W₁, W₂, W₃, 
 
 <img width="1529" height="680" alt="image" src="https://github.com/user-attachments/assets/5336bcc1-db7d-4eb3-920a-463c68ec3109" />
 
+the static noise margin in read operation is :
+
+<img width="1916" height="632" alt="image" src="https://github.com/user-attachments/assets/6f19083f-3dda-438d-93f6-89dcccd5aa77" />
