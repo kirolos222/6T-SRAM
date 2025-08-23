@@ -7,7 +7,7 @@ Simulations were conducted in Cadence Virtuoso using the gf22nm FDSOI process de
 
 Read Operation: The cell successfully holds data with minimal bit line disturbance. Read SNM analysis shows a noise margin of approximately 350 mV, indicating robust stability during read.
 
-Write Operation: The access transistor sizing allows data to be written reliably at nominal supply voltage. Write delay is measured to be YY ps.
+Write Operation: The access transistor sizing allows data to be written reliably at nominal supply voltage. Write delay is measured to be 7 ps.
 
 Hold State: The cell maintains data integrity without word line activation, with static noise margins supporting stable data retention.
 
@@ -34,3 +34,7 @@ The write operation is initiated by asserting all word lines (W₁, W₂, W₃, 
 the static noise margin in read operation is :
 
 <img width="1916" height="632" alt="image" src="https://github.com/user-attachments/assets/6f19083f-3dda-438d-93f6-89dcccd5aa77" />
+
+delay time :
+
+<img width="1919" height="684" alt="image" src="https://github.com/user-attachments/assets/c0adde62-025b-44a3-b933-0b0d02fde9c6" />
