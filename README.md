@@ -15,6 +15,13 @@ Power Analysis: Leakage currents increase due to technology scaling but remain w
 
 Process Variation: Monte Carlo simulations confirm the design's tolerance to variations in threshold voltage and channel length, ensuring functional reliability across corners.
 
-Butterfly graph:
+# Read operation
 
-<img width="828" height="638" alt="image" src="https://github.com/user-attachments/assets/1562d4f1-554f-4e11-94f4-ce99036fe436" />
+During a read operation of a '1' (Q=1, Q'=0), the activated word line (W_L=1) allows the cell to influence the precharged bit lines. The Bit_Bar side discharges through the access transistor and the pull-down path of the cell, causing its voltage to decrease. This creates a voltage differential between Bit (which remains high) and Bit_Bar (which decreases). This differential is detected by the sense amplifier, which amplifies it to output a valid logic '1'.
+
+<img width="1368" height="669" alt="image" src="https://github.com/user-attachments/assets/efbf9f9a-f8d4-48f9-a0da-f246659f942b" />
+
+the static noise margin in read operation is :
+
+<img width="1262" height="641" alt="image" src="https://github.com/user-attachments/assets/89820001-695b-474d-a802-04d1417f7f4b" />
+
