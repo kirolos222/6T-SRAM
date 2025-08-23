@@ -25,3 +25,9 @@ the static noise margin in read operation is :
 
 <img width="1262" height="641" alt="image" src="https://github.com/user-attachments/assets/89820001-695b-474d-a802-04d1417f7f4b" />
 
+in write operation :
+The write operation is initiated by asserting all word lines (W₁, W₂, W₃, W₄ = 1). To write a specific value, the Bit line is driven to a low logic state (GND), while the complementary Bit line is forced to the desired voltage (Vp) through a logic function, effectively creating a strong voltage differential across the cell. This differential is designed to overcome the cell's internal feedback, with the condition that the driving signal (y₁) must be stronger than the cell's retention capability (y_m) to flip its state. The control logic (m₂ = cH, m₁ = 0, g = 1) manages this process, ensuring a successful and reliable write operation.
+
+
+<img width="1529" height="680" alt="image" src="https://github.com/user-attachments/assets/5336bcc1-db7d-4eb3-920a-463c68ec3109" />
+
