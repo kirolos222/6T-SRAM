@@ -38,3 +38,10 @@ the static noise margin in read operation is :
 delay time :
 
 <img width="1919" height="684" alt="image" src="https://github.com/user-attachments/assets/c0adde62-025b-44a3-b933-0b0d02fde9c6" />
+
+## layout :
+
+<img width="1176" height="567" alt="image" src="https://github.com/user-attachments/assets/5710d0af-fa8e-4d92-873f-43ce8f1cd3d9" />
+
+## post layout simulation:
+
