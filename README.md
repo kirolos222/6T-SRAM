@@ -40,6 +40,11 @@ the static noise margin in read operation is :
 
 <img width="1916" height="632" alt="image" src="https://github.com/user-attachments/assets/6f19083f-3dda-438d-93f6-89dcccd5aa77" />
 
+across PVT:
+
+<img width="1541" height="653" alt="image" src="https://github.com/user-attachments/assets/30e83dc2-d950-4445-a5f5-a1401b20e571" />
+
+
 delay time :
 
 <img width="1919" height="684" alt="image" src="https://github.com/user-attachments/assets/c0adde62-025b-44a3-b933-0b0d02fde9c6" />
