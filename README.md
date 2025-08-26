@@ -57,3 +57,8 @@ delay time :
 
 <img width="1649" height="641" alt="image" src="https://github.com/user-attachments/assets/11a1600d-4411-413f-bc6a-63e72bcf8239" />
 
+## power consumption ideal vs layout
+
+<img width="1914" height="643" alt="image" src="https://github.com/user-attachments/assets/b598cd8b-0934-4533-a405-9983f03c9ad3" />
+
+
