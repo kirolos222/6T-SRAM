@@ -55,3 +55,5 @@ delay time :
 
 ## post layout simulation:
 
+<img width="1649" height="641" alt="image" src="https://github.com/user-attachments/assets/11a1600d-4411-413f-bc6a-63e72bcf8239" />
+
